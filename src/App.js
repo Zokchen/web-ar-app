@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import ARScene from './ARScene';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header >
+        <h1>Web AR Application</h1>
       </header>
+      <ARScene />
     </div>
   );
 }
